@@ -1,0 +1,254 @@
+/*
+Theme Name:  WUSM
+Theme URI:   http://medicine.wustl.edu
+Description: Base theme for School of Medicine sites
+Author: 	 Medical Public Affairs
+Author URI:  http://medicine.wustl.edu
+Version:	 2014.06.11.0
+
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+*/
+img {
+	max-width: 100%;
+	height: auto;
+}
+.intro {
+	max-width: 960px;
+	width: 100%;
+	font-family: 'Open Sans', sans-serif;
+	padding-bottom: 25px;
+	margin: 0 auto;
+}
+.mission {
+	width: 27%;
+	background: #333;
+	float: left;
+	padding: 17px 16px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	height: 400px;
+}
+.mission h1 {
+	padding: 0;
+	color: #fff;
+	font-size: 18px;
+	font-weight: 400;
+}
+.mission p {
+	font-size: 15px;
+	color: #cccc66;
+	padding: 5px 0;
+	font-weight: 400;
+	line-height: 1.5
+}
+.mission img {
+	display: block;
+	margin: 25px auto 0;
+	width: 121px;
+}
+.slider {
+	width: 72.916666666667%;
+	float: left;
+}
+.tip-metrics {
+	float: left;
+	width: 63.8%;
+}
+.tip-week {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	padding: 20px 30px 30px;
+	background: #cccc66 url(_/img/lightbulb-icon.png) top -5px left -5px no-repeat;
+	margin: 20px 0 40px;
+	font-family: 'Open Sans', sans-serif;
+}
+.tip-week h1 {
+	font-size: 20px;
+	padding-bottom: 10px;
+}
+.tip-week p {
+	line-height: 1.5;
+}
+.metrics {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	padding: 20px 30px 30px;
+	background: #cccc99 url(_/img/metrics-grid.png) top left no-repeat;
+	margin: 0 0 40px;
+	font-family: 'Open Sans', sans-serif;
+}
+.metrics-left {
+	float: left;
+	width: 58%;
+}
+.metrics h1 {
+	font-size: 20px;
+	padding-bottom: 10px;
+}
+.metrics p {
+	line-height: 1.5;
+}
+.metrics-right {
+	float: right;
+	width: 30%;
+}
+.metrics-right img {
+	width: 160px;
+	margin-top: 10px;
+}
+.metrics-right a {
+	color: #217668;
+}
+.metrics-right a:hover {
+	color: #009999;
+}
+.events-home {
+	width: 31.25%;
+	float: right;
+	margin: 20px 0 40px;
+	background: #eeeede;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	padding: 20px 20px 30px;
+	font-family: 'Open Sans', sans-serif;
+}
+.events h1 {
+	font-size: 18px;
+}
+.events-all {
+	font-size: 14px;
+	padding-bottom: 20px;
+}
+.events-all a {
+	color: #217668;
+}
+.calendar-date {
+	float: left;
+	width: 40px;
+	margin-right: 15px;
+	text-align: center;
+	margin-bottom: 10px;
+}
+.calendar-month {
+	color: #fff;
+	background: #666;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	text-transform: uppercase;
+	font-size: 12px;
+}
+.calendar-day {
+	background: #fff;
+	border: 2px solid #666;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+.event-info-single {
+	margin-left: 55px;
+	margin-bottom: 10px;
+}
+.events-home a {
+	color: #217668;
+}
+.events-home a:hover {
+	color: #009999;
+}
+#col3 img {
+	width: 121px;
+	display: block;
+	margin: 0 auto;
+}
+#col3 p {
+	color: #2b5393;
+	font-family: 'Open Sans',sans-serif;
+	text-align: center;
+	margin-top: 10px;
+}
+
+@media screen and (max-width: 1000px) {
+	.mission {
+		width: 100%;
+		max-width: 640px;
+		float: none;
+		margin: 15px auto 0;
+		height: auto;
+	}
+	.mission-left {
+		float: left;
+		width: 70%;
+	}
+	.mission-right {
+		float: right;
+		width: 20%;
+	}
+	.mission img {
+		margin-top: 0;
+	}
+	.slider {
+		width: 100%;
+		max-width: 640px;
+		float: none;
+		margin: 0 auto;
+	}
+}
+@media screen and (max-width: 700px) {
+	.tip-metrics {
+		float: none;
+		width: 95%;
+		margin: 0 auto;
+	}
+	.events-home {
+		width: 95%;
+		float: none;
+		margin: 0 auto 40px;
+	}
+	.mission-left {
+		width: 65%;
+	}
+	.mission-right {
+		width: 30%;
+		text-align: right;
+	}
+	.mission-right img {
+		display: inline;
+	}
+}
+@media screen and (max-width: 640px) {
+	.intro {
+		padding-bottom: 0;
+	}
+	.mission {
+		margin-top: 0;
+	}
+	.tip-week {
+		margin-bottom: 20px;
+	}
+	.metrics {
+		margin-bottom: 20px;
+	}
+}
+@media screen and (max-width: 400px) {
+	.mission-left {
+		float: none;
+		width: 100%;
+	}
+	.mission-right {
+		float: none;
+		width: 100%;
+		padding-top: 10px;
+	}
+	.mission-right img {
+		display: block;
+	}
+}
+
+
+
+
+
+
