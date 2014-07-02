@@ -70,7 +70,7 @@
 			<div class="tip-metrics">
 			<div class="tip-week">
 				<h1>Tip of the Week</h1>
-				<p>Consent is a critically important process in the conduct of human subjects research. If the IRB requires that you obtain a signed consent document, be sure that the PARTICIPANT signs and dates the document themselves – DO NOT prefill the date or have the person obtaining consent sign the document before the participant. Additionally, if you have any points within the document that the subject must initial or check, be sure they have done so prior to signing. Failing to obtain proper signatures may invalidate the consent and cause loss of data for your study!</p>
+				<p><?php the_field('tip', 44); ?></p>
 			</div>
 			<div class="metrics clearfix">
 				<div class="metrics-left">

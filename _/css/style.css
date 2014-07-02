@@ -230,6 +230,9 @@ a {
 .front-page {
     max-width: 100%;
     width: 100%;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 /* Left column
@@ -1051,6 +1054,9 @@ article.search-results {
     #site-social {
         float: none;
         margin-top: 20px;
+    }
+    #site-social a:first-child {
+        margin-left: 0;
     }
 
     a#site-facebook {
