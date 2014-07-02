@@ -205,6 +205,7 @@ a {
 -------------------------------------------------------------------------------*/
 #main {
     position: relative;
+    font-family: 'Open Sans', sans-serif;
 }
 
 #page-background {
@@ -258,16 +259,15 @@ a {
 }
 
 #left-nav li a {
-    color: #980006;
+    color: #217668;
     font-weight: bold;
     font-size: 13px;
     line-height: 17px;
-    margin-left: 10px;
     display: block;
 }
 
 #left-nav li a:hover {
-    color: #717171;
+    color: #009999;
 }
 
 #left-nav li.top_level_page {
@@ -306,7 +306,6 @@ a {
 -------------------------------------------------------------------------------*/
 
 article {
-    background-color: #f4f4f4;
     float: left;
     max-width: 450px;
     width: 100%;
@@ -320,9 +319,8 @@ article.notch {
 }
 
 article h1 {
-    font-family: Georgia, serif;
     font-weight: normal;
-    font-size: 30px;
+    font-size: 24px;
 }
 
 article h2 {
@@ -788,11 +786,13 @@ a#wusm-google-plus:hover {
     color: #dedede;
     display: inline-block;
     padding: 9px 12px;
-    border-left: 1px solid #191919;
+    border-left: 1px solid rgb(255,255,255);
+    border-left: 1px solid rgba(255,255,255,0.3);
 }
 
 #wusm-footer-right nav a:hover {
-    color: #999;
+    color: rgb(255,255,255);
+    color: rgba(255,255,255,0.55);
 }
 
 #wusm-footer-right nav a.first-child {
@@ -984,10 +984,6 @@ article.search-results {
 
     #featured-image {
         margin-bottom: -2px;
-    }
-
-    #main {
-        background-color: #f4f4f4;
     }
 
     #page-background {

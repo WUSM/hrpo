@@ -70,7 +70,13 @@
 			<div class="tip-metrics">
 			<div class="tip-week">
 				<h1>Tip of the Week</h1>
-				<p><?php the_field('tip', 44); ?></p>
+				<p><?php
+					$args = array( 'post_type' => 'tips', 'posts_per_page' => 1 );
+					$loop = new WP_Query( $args );
+					while ( $loop->have_posts() ) : $loop->the_post();
+						the_content();
+					endwhile;
+				?></p>
 			</div>
 			<div class="metrics clearfix">
 				<div class="metrics-left">

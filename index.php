@@ -16,11 +16,10 @@
 
 <div id="main" class="clearfix">
 
-	<div id="page-background"></div>
+	<div class="title-bg"></div>
+	<div class="title-bg-inner"></div>
 
 	<div class="wrapper clearfix">
-	
-		<div id="page-background-inner"></div>
 
 		<?php get_sidebar( 'left' ); ?>
 

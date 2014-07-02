@@ -13,6 +13,13 @@ img {
 	max-width: 100%;
 	height: auto;
 }
+li#menu-item-51 {
+	position: absolute;
+	right: 170px;
+}
+li#menu-item-51 a {
+	text-transform: none;
+}
 .intro {
 	max-width: 960px;
 	width: 100%;
@@ -170,7 +177,44 @@ img {
 	margin-top: 10px;
 }
 
+.title-bg {
+	display: none;
+}
+body.page-id-9 .title-bg,
+body.page-id-11 .title-bg,
+body.page-id-13 .title-bg,
+body.page-id-15 .title-bg {
+	display: block;
+	width: 50%;
+	position: absolute;
+	top: 38px;
+	background: #eeeede;
+	height: 49px;
+}
+body.page-id-9 .title-bg-inner,
+body.page-id-11 .title-bg-inner,
+body.page-id-13 .title-bg-inner,
+body.page-id-15 .title-bg-inner {
+	display: block;
+	max-width: 520px;
+	position: absolute;
+	margin: 0 auto;
+	top: 38px;
+	right: 159px;
+	left: 0;
+	background: #eeeede url(_/img/pattern.png) top right no-repeat;
+	height: 49px;
+}
+#left-col {
+	padding-top: 100px;
+}
+
+
 @media screen and (max-width: 1000px) {
+	li#menu-item-51 {
+		position: relative;
+		right: 0;
+	}
 	.mission {
 		width: 100%;
 		max-width: 640px;
@@ -216,6 +260,16 @@ img {
 	}
 	.mission-right img {
 		display: inline;
+	}
+	body.page-id-9 .title-bg,
+	body.page-id-11 .title-bg,
+	body.page-id-13 .title-bg,
+	body.page-id-15 .title-bg {
+		display: none;
+	}
+	.title-bg-inner {
+		right: 0;
+		width: 95%;
 	}
 }
 @media screen and (max-width: 640px) {

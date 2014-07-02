@@ -2,12 +2,12 @@
     <div class="wrapper">
         <div id="site-footer-top" class="clearfix">
             <nav>
-                <a onclick="javascript:_gaq.push(['_trackEvent','site-footer','']);" href="">Contact</a>
-                <a onclick="javascript:_gaq.push(['_trackEvent','site-footer','']);" href="">About</a>
-                <a onclick="javascript:_gaq.push(['_trackEvent','site-footer','']);" href="">News</a>
+                <a onclick="javascript:_gaq.push(['_trackEvent','site-footer','']);" href="contact">Contact</a>
+                <a onclick="javascript:_gaq.push(['_trackEvent','site-footer','']);" href="about">About</a>
+                <a onclick="javascript:_gaq.push(['_trackEvent','site-footer','']);" href="news">News</a>
                 <a onclick="javascript:_gaq.push(['_trackEvent','site-footer','']);" href="calendar">Calendar</a>
-                <a onclick="javascript:_gaq.push(['_trackEvent','site-footer','']);" href="">FAQs</a>
-                <a onclick="javascript:_gaq.push(['_trackEvent','site-footer','']);" href="">HRPO Open Access Library</a>
+                <a onclick="javascript:_gaq.push(['_trackEvent','site-footer','']);" href="faqs">FAQs</a>
+                <a onclick="javascript:_gaq.push(['_trackEvent','site-footer','']);" href="http://digitalcommons.wustl.edu/hrpo/">HRPO Open Access Library</a>
             </nav>
             <div id="site-social">
                 <a onclick="javascript:_gaq.push(['_trackEvent','site-footer','RSS']);" id="site-rss" title="RSS" href=""></a>

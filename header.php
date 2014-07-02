@@ -55,7 +55,7 @@
 
         <div class="wrapper clearfix">
 
-            <div id="header-logo"><a onclick="javascript:_gaq.push(['_trackEvent','header-logo','http://medicine.wustl.edu/']);" href="http://medicine.wustl.edu/"><img src="<?php echo get_template_directory_uri(); ?>/_/img/wustl-logo.png" alt="Washington University School of Medicine in St. Louis"></a></div>
+            <div id="header-logo"><a onclick="javascript:_gaq.push(['_trackEvent','header-logo','http://wustl.edu/']);" href="http://wustl.edu/"><img src="<?php echo get_template_directory_uri(); ?>/_/img/wustl-logo.png" alt="Washington University School of Medicine in St. Louis"></a></div>
 
             <nav id="utility-bar">
                 <ul id="utility-nav">

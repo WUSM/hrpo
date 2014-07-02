@@ -18,7 +18,7 @@ if (isset($_GET['post_type']) && $_GET['post_type'] == 'event' && is_search()) {
         <div class="wrapper clearfix">
 
             <div id="wusm-footer-left">
-                <a onclick="javascript:_gaq.push(['_trackEvent','wusm-footer','http://medicine.wustl.edu/']);" href="http://medicine.wustl.edu/"><img src="<?php echo get_template_directory_uri(); ?>/_/img/wustl-logo-footer.png" alt="Washington University School of Medicine in St. Louis"></a>
+                <a onclick="javascript:_gaq.push(['_trackEvent','wusm-footer','http://wustl.edu/']);" href="http://wustl.edu/"><img src="<?php echo get_template_directory_uri(); ?>/_/img/wustl-logo-footer.png" alt="Washington University School of Medicine in St. Louis"></a>
                 <div id="copyright">&copy; Washington University in St. Louis</div>
             </div>
 
