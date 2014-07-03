@@ -255,4 +255,76 @@ if(function_exists("register_field_group"))
         ),
         'menu_order' => 1,
     ));
+
+    register_field_group(array (
+        'id' => 'acf_slide',
+        'title' => 'Slide',
+        'fields' => array (
+            array (
+                'key' => 'field_53ada62a49e92',
+                'label' => 'Slide Image',
+                'name' => 'image',
+                'type' => 'image',
+                'save_format' => 'id',
+                'preview_size' => 'medium',
+                'library' => 'all',
+            ),
+            array (
+                'key' => 'field_53ada65949e93',
+                'label' => 'Slide Caption',
+                'name' => 'caption',
+                'type' => 'textarea',
+                'default_value' => '',
+                'placeholder' => '',
+                'maxlength' => '',
+                'rows' => '',
+                'formatting' => 'br',
+            ),
+            array (
+                'key' => 'field_53adb8f450fc8',
+                'label' => 'Link URL',
+                'name' => 'link_url',
+                'type' => 'text',
+                'default_value' => '',
+                'placeholder' => '',
+                'prepend' => '',
+                'append' => '',
+                'formatting' => 'none',
+                'maxlength' => '',
+            ),
+        ),
+        'location' => array (
+            array (
+                array (
+                    'param' => 'post_type',
+                    'operator' => '==',
+                    'value' => 'slider',
+                    'order_no' => 0,
+                    'group_no' => 0,
+                ),
+            ),
+        ),
+        'options' => array (
+            'position' => 'normal',
+            'layout' => 'default',
+            'hide_on_screen' => array (
+                0 => 'permalink',
+                1 => 'the_content',
+                2 => 'excerpt',
+                3 => 'custom_fields',
+                4 => 'discussion',
+                5 => 'comments',
+                6 => 'revisions',
+                7 => 'slug',
+                8 => 'author',
+                9 => 'format',
+                10 => 'featured_image',
+                11 => 'categories',
+                12 => 'tags',
+                13 => 'send-trackbacks',
+            ),
+        ),
+        'menu_order' => 0,
+    ));
+
 }

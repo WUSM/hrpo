@@ -1,7 +1,7 @@
 /*
-Theme Name:  WUSM
+Theme Name:  HRPO
 Theme URI:   http://medicine.wustl.edu
-Description: Base theme for School of Medicine sites
+Description: Theme for Human Research Protection Office
 Author: 	 Medical Public Affairs
 Author URI:  http://medicine.wustl.edu
 Version:	 2014.06.11.0
@@ -200,7 +200,7 @@ body.page-id-15 .title-bg-inner {
 	position: absolute;
 	margin: 0 auto;
 	top: 38px;
-	right: 159px;
+	right: 60px;
 	left: 0;
 	background: #eeeede url(_/img/pattern.png) top right no-repeat;
 	height: 49px;
@@ -261,12 +261,6 @@ body.page-id-15 .title-bg-inner {
 	.mission-right img {
 		display: inline;
 	}
-	body.page-id-9 .title-bg,
-	body.page-id-11 .title-bg,
-	body.page-id-13 .title-bg,
-	body.page-id-15 .title-bg {
-		display: none;
-	}
 	.title-bg-inner {
 		right: 0;
 		width: 95%;
@@ -284,6 +278,16 @@ body.page-id-15 .title-bg-inner {
 	}
 	.metrics {
 		margin-bottom: 20px;
+	}
+	body.page-id-9 .title-bg,
+	body.page-id-11 .title-bg,
+	body.page-id-13 .title-bg,
+	body.page-id-15 .title-bg,
+	body.page-id-9 .title-bg-inner,
+	body.page-id-11 .title-bg-inner,
+	body.page-id-13 .title-bg-inner,
+	body.page-id-15 .title-bg-inner {
+		display: none;
 	}
 }
 @media screen and (max-width: 400px) {

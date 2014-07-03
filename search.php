@@ -6,7 +6,11 @@
 
 <div id="main" class="clearfix">
 
+    <div id="page-background"></div>
+
     <div class="wrapper clearfix">
+
+        <div id="page-background-inner"></div>
 
         <nav id="left-col">
             <?php get_sidebar( 'left' ); ?>
