@@ -40,6 +40,7 @@
 					</div>
 				</div>
 				<div class="slider">
+					<div class="bxwrapper">
 					<ul class="bxslider">
 						<?php
 							$args = array( 'post_type' => 'slider' );
@@ -63,6 +64,7 @@
 							wp_reset_postdata();
 						?>
 					</ul>
+					</div>
 				</div>
 			</div>
 
@@ -122,6 +124,7 @@
 
 <script>
 jQuery(document).ready(function(){
+  jQuery(".bxwrapper").show();
   jQuery('.bxslider').bxSlider({
   	captions: true
   });
