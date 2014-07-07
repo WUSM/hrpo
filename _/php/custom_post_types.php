@@ -76,5 +76,52 @@ function custom_post_types_init() {
 
   register_post_type( 'tips', $args );
 
+
+  // Metrics
+
+  $labels = array(
+    'name' => 'Metrics',
+    'singular_name' => 'Chart',
+    'add_new' => 'Add New',
+    'add_new_item' => 'Add New Chart',
+    'edit_item' => 'Edit Chart',
+    'new_item' => 'New Chart',
+    'all_items' => 'All Charts',
+    'view_item' => 'View Chart',
+    'search_items' => 'Search charts',
+    'not_found' =>  'No charts found',
+    'not_found_in_trash' => 'No charts found in Trash',
+    'parent_item_colon' => '',
+    'menu_name' => 'Metrics'
+  );
+
+  $args = array(
+    'labels' => $labels,
+    'public' => true,
+    'exclude_from_search' => true,
+    'show_ui' => true,
+    'show_in_menu' => true,
+    'query_var' => true,
+    'rewrite' => array( 'slug' => 'charts' ),
+    'capability_type' => 'post',
+    'has_archive' => true,
+    'hierarchical' => false,
+    'menu_position' => 6,
+    'menu_icon' => 'dashicons-chart-bar',
+    'supports' => array(  )
+  );
+
+  register_post_type( 'charts', $args );
+
 } 
 add_action( 'init', 'custom_post_types_init' );
+
+
+function charts_taxonomy() {
+  $args = array(
+        'hierarchical' => true
+    );
+  register_taxonomy( 'charts_category', 'charts', $args );
+}
+
+add_action( 'init', 'charts_taxonomy', 0 );

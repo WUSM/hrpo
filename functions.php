@@ -228,6 +228,7 @@ update_option('embed_size_w', 450);
 add_image_size( 'right-sidebar', 238, NULL );
 
 add_image_size( 'slider', 700, 400, true );
+add_image_size( 'chart', 200, 200, true );
 
 
 
@@ -243,6 +244,9 @@ add_action('after_setup_theme', 'attachment_display_settings');
 function hrpo_scripts() {
 	wp_enqueue_style( 'bxslider', '/wp-content/themes/hrpo/_/css/bxslider.css', true );
 	wp_enqueue_script( 'jquery.bxslider.min.js', '/wp-content/themes/hrpo/_/js/bxslider.js', array('jquery'), true );
+	wp_enqueue_style( 'nivo-lightbox', '/wp-content/themes/hrpo/_/css/nivo-lightbox.css', true );
+	wp_enqueue_style( 'nivo-lightbox-theme', '/wp-content/themes/hrpo/_/css/default.css', true );
+	wp_enqueue_script( 'nivo-lightbox.min.js', '/wp-content/themes/hrpo/_/js/nivo-lightbox.min.js', array('jquery'), true );
 
 }
 add_action( 'wp_enqueue_scripts', 'hrpo_scripts' );

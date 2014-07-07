@@ -13,11 +13,11 @@ img {
 	max-width: 100%;
 	height: auto;
 }
-li#menu-item-51 {
+li#menu-item-85 {
 	position: absolute;
 	right: 170px;
 }
-li#menu-item-51 a {
+li#menu-item-85 a {
 	text-transform: none;
 }
 .intro {
@@ -180,10 +180,10 @@ li#menu-item-51 a {
 .title-bg {
 	display: none;
 }
-body.page-id-9 .title-bg,
-body.page-id-11 .title-bg,
-body.page-id-13 .title-bg,
-body.page-id-15 .title-bg {
+body.page-id-45 .title-bg,
+body.page-id-47 .title-bg,
+body.page-id-49 .title-bg,
+body.page-id-51 .title-bg {
 	display: block;
 	width: 50%;
 	position: absolute;
@@ -191,10 +191,10 @@ body.page-id-15 .title-bg {
 	background: #eeeede;
 	height: 49px;
 }
-body.page-id-9 .title-bg-inner,
-body.page-id-11 .title-bg-inner,
-body.page-id-13 .title-bg-inner,
-body.page-id-15 .title-bg-inner {
+body.page-id-45 .title-bg-inner,
+body.page-id-47 .title-bg-inner,
+body.page-id-49 .title-bg-inner,
+body.page-id-51 .title-bg-inner {
 	display: block;
 	max-width: 520px;
 	position: absolute;
@@ -207,6 +207,31 @@ body.page-id-15 .title-bg-inner {
 }
 #left-col {
 	padding-top: 100px;
+}
+
+
+/* ------ Metrics ------ */
+
+.page-metrics h2 {
+	border-bottom: 1px solid #eae8e8;
+	padding-bottom: 10px;
+}
+ul.charts {
+	margin: 0;
+	list-style: none;
+	margin: 0 -5px;
+}
+ul.charts li {
+	width: 33.33333%;
+	float: left;
+	padding: 5px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+ul.charts li h3 {
+	margin: 10px 0 10px;
+	font-size: 14px;
 }
 
 
@@ -279,14 +304,14 @@ body.page-id-15 .title-bg-inner {
 	.metrics {
 		margin-bottom: 20px;
 	}
-	body.page-id-9 .title-bg,
-	body.page-id-11 .title-bg,
-	body.page-id-13 .title-bg,
-	body.page-id-15 .title-bg,
-	body.page-id-9 .title-bg-inner,
-	body.page-id-11 .title-bg-inner,
-	body.page-id-13 .title-bg-inner,
-	body.page-id-15 .title-bg-inner {
+	body.page-id-45 .title-bg,
+	body.page-id-47 .title-bg,
+	body.page-id-49 .title-bg,
+	body.page-id-51 .title-bg,
+	body.page-id-45 .title-bg-inner,
+	body.page-id-47 .title-bg-inner,
+	body.page-id-49 .title-bg-inner,
+	body.page-id-51 .title-bg-inner {
 		display: none;
 	}
 }
