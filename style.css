@@ -71,7 +71,7 @@ li#menu-item-85 a {
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
 	padding: 20px 30px 30px;
-	background: #cccc66 url(_/img/lightbulb-icon.png) top -5px left -5px no-repeat;
+	background: #cccc66 url(_/img/lightbulb-icon.png) -5px -5px no-repeat;
 	margin: 20px 0 40px;
 	font-family: 'Open Sans', sans-serif;
 }
@@ -87,7 +87,7 @@ li#menu-item-85 a {
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
 	padding: 20px 30px 30px;
-	background: #cccc99 url(_/img/metrics-grid.png) top left no-repeat;
+	background: #cccc99 url(_/img/metrics-grid.png) no-repeat;
 	margin: 0 0 40px;
 	font-family: 'Open Sans', sans-serif;
 }
