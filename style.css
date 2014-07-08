@@ -238,6 +238,53 @@ ul.charts li h3 {
 }
 
 
+/* ------ Research Toolkit ------ */
+
+.research-toolkit article {
+	padding: 45px 35px 20px 35px;
+}
+ul.research-toolkit-nav {
+	margin: 0;
+	list-style: none;
+	padding: 0 0 0 30px;
+	margin: 0 -5px 50px 0;
+	float: left;
+	max-width: 745px;
+	width: 100%;
+}
+ul.research-toolkit-nav a {
+	color: #000;
+	padding: 5px;
+	width: 33.3333%;
+	float: left;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	transition: color 0.1s ease;
+}
+ul.research-toolkit-nav li {
+	text-align: center;
+	padding: 100px 10px 0;
+	height: 130px;
+	font-size: 20px;
+	font-weight: bold;
+	transition: background 0.1s ease;
+}
+li.rt-pol {	background: #9acccd; }
+li.rt-inv {	background: #a7badb; }
+li.rt-fee {	background: #fba52a; }
+ul.research-toolkit-nav li.rt-eme {	background: #ccb162; padding: 90px 10px 10px; }
+ul.research-toolkit-nav li.rt-com {	background: #a6d15b; padding: 90px 10px 10px; }
+li.rt-spo {	background: #b7ae9d; }
+li.rt-add {	background: #cccc9a; }
+
+ul.research-toolkit-nav a:last-child { width: 100%; }
+ul.research-toolkit-nav a:last-child li { padding: 40px 0 0; height: 65px; }
+
+ul.research-toolkit-nav a:hover { color: #fff; }
+ul.research-toolkit-nav a:hover li { background: #686868; }
+
+
 @media screen and (max-width: 1000px) {
 	li#menu-item-51 {
 		position: relative;
@@ -266,6 +313,12 @@ ul.charts li h3 {
 		max-width: 640px;
 		float: none;
 		margin: 0 auto;
+	}
+	ul.research-toolkit-nav {
+		padding: 0 30px;
+		margin-right: 0;
+		max-width: 640px;
+		width: auto;
 	}
 }
 @media screen and (max-width: 700px) {
@@ -316,6 +369,9 @@ ul.charts li h3 {
 	body.page-id-49 .title-bg-inner,
 	body.page-id-51 .title-bg-inner {
 		display: none;
+	}
+	ul.research-toolkit-nav a {
+		width: 50%;
 	}
 }
 @media screen and (max-width: 400px) {
