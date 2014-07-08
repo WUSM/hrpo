@@ -30,7 +30,7 @@
                 </ul>
             </div>
             <div id="col3">
-                <img src="http://localhost/hrpo.wustl.edu/wp-content/themes/hrpo/_/img/accreditation.png">
+                <img src="wp-content/themes/hrpo/_/img/accreditation.png">
                 <p>Committed to protecting research participants</p>
             </div>
         </div>
