@@ -261,7 +261,7 @@ ul.research-toolkit-nav a {
 }
 ul.research-toolkit-nav li {
 	text-align: center;
-	padding: 100px 10px 0;
+	padding: 102px 10px 0;
 	height: 130px;
 	font-size: 20px;
 	font-weight: bold;
@@ -270,13 +270,13 @@ ul.research-toolkit-nav li {
 li.rt-pol {	background: #9acccd; }
 li.rt-inv {	background: #a7badb; }
 li.rt-fee {	background: #fba52a; }
-ul.research-toolkit-nav li.rt-eme {	background: #ccb162; padding: 90px 10px 10px; }
-ul.research-toolkit-nav li.rt-com {	background: #a6d15b; padding: 90px 10px 10px; }
+ul.research-toolkit-nav li.rt-eme {	background: #ccb162; padding: 88px 10px 12px; }
+ul.research-toolkit-nav li.rt-com {	background: #a6d15b; padding: 88px 10px 12px; }
 li.rt-spo {	background: #b7ae9d; }
 li.rt-add {	background: #cccc9a; }
 
 ul.research-toolkit-nav a:last-child { width: 100%; }
-ul.research-toolkit-nav a:last-child li { padding: 40px 0 0; height: 65px; }
+ul.research-toolkit-nav a:last-child li { padding: 39px 0 0; height: 65px; }
 
 ul.research-toolkit-nav a:hover { color: #fff; }
 ul.research-toolkit-nav a:hover li { background: #686868; }
@@ -317,6 +317,10 @@ ul.research-toolkit-nav a:hover li { background: #686868; }
 		max-width: 640px;
 		width: auto;
 	}
+	ul.research-toolkit-nav li { padding: 72px 10px 0; height: 100px; }
+	ul.research-toolkit-nav li.rt-inv { padding: 59px 10px 13px; }
+	ul.research-toolkit-nav li.rt-eme { padding: 45px 10px 27px; }
+	ul.research-toolkit-nav li.rt-com { padding: 45px 10px 27px; }
 }
 @media screen and (max-width: 700px) {
 	.tip-metrics {
@@ -368,8 +372,18 @@ ul.research-toolkit-nav a:hover li { background: #686868; }
 		display: none;
 	}
 	ul.research-toolkit-nav a {
-		width: 50%;
+		width: 100%;
 	}
+	ul.research-toolkit-nav a li {
+		padding: 10px 15px;
+		height: auto;
+		text-align: left;
+		font-size: 16px;
+	}
+	ul.research-toolkit-nav li.rt-inv { padding: 10px 15px; }
+	ul.research-toolkit-nav li.rt-eme { padding: 10px 15px; }
+	ul.research-toolkit-nav li.rt-com { padding: 10px 15px; }
+	ul.research-toolkit-nav a:last-child li { padding: 10px 15px; height: auto; }
 }
 @media screen and (max-width: 400px) {
 	.mission-left {
