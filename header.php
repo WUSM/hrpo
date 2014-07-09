@@ -24,7 +24,6 @@
     <link rel="apple-touch-icon" href="<?php echo get_template_directory_uri(); ?>/_/img/apple-touch-icon.png">
 
     <!-- concatenate and minify for production -->
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,400,600,300' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/_/css/reset.css">
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/_/css/style.css">
     <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/style.css">

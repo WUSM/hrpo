@@ -124,10 +124,8 @@
 
 <script>
 jQuery(document).ready(function(){
-  jQuery(".bxwrapper").show();
-  jQuery('.bxslider').bxSlider({
-  	captions: true
-  });
+  jQuery('.bxwrapper').show();
+  jQuery('.bxslider').bxSlider();
 });
 </script
 

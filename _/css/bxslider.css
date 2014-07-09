@@ -14,6 +14,10 @@
 /** RESET AND LAYOUT
 ===================================*/
 
+.bxwrapper {
+	display: none;
+}
+
 .bx-wrapper {
 	position: relative;
 	margin: 0 auto;
@@ -29,9 +33,8 @@
 /** THEME
 ===================================*/
 
-.bx-wrapper .bx-viewport {
-	background: #fff;
-	
+.bx-wrapper .bx-viewport { 
+	background: #333;
 	/*fix other elements on the page moving (on Chrome)*/
 	-webkit-transform: translatez(0);
 	-moz-transform: translatez(0);
@@ -39,6 +42,7 @@
     	-o-transform: translatez(0);
     	transform: translatez(0);
 }
+.bx-viewport li { min-height: 1px; min-width: 1px; }
 
 .bx-wrapper .bx-pager,
 .bx-wrapper .bx-controls-auto {
