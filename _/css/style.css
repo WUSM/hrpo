@@ -348,7 +348,7 @@ article p {
 }
 
 article h1 + p {
-    margin-top: 50px;
+    margin-top: 40px;
 }
 
 article h1 + .accordion-header {
@@ -356,11 +356,11 @@ article h1 + .accordion-header {
 }
 
 article a {
-    color: #980006;
+    color: #217668;
 }
 
 article a:hover {
-    color: #555;
+    color: #009999;
 }
 
 article ul {
@@ -491,7 +491,7 @@ article td p:last-child {
 
 #right-col {
     float: left;
-    padding: 128px 10px 0 0;
+    padding: 123px 10px 0 0;
 }
 
 #right-col aside {
@@ -513,7 +513,7 @@ article td p:last-child {
 }
 
 #right-col aside a {
-    color: #900;
+    color: #217668;
 }
 
 #right-col aside a:hover {
@@ -578,7 +578,7 @@ article td p:last-child {
 }
 
 #right-col aside a.opt-link:hover {
-    color: #900;
+    color: #217668;
     background-color: #dadada;
 }
 
@@ -830,7 +830,7 @@ article.search-results {
 }
 
 #paginate-results a {
-    color: #980006;
+    color: #217668;
 }
 
 
@@ -860,16 +860,16 @@ article.search-results {
 }
 
 #mobile-search-box::-webkit-input-placeholder { /* WebKit browsers */
-    color:    #fff;
+    color: #fff;
 }
 #mobile-search-box:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
-    color:    #fff;
+    color: #fff;
 }
 #mobile-search-box::-moz-placeholder { /* Mozilla Firefox 19+ */
-    color:    #fff;
+    color: #fff;
 }
 #mobile-search-box:-ms-input-placeholder { /* Internet Explorer 10+ */
-    color:    #fff;
+    color: #fff;
 }
 
 #mobile-search-btn {

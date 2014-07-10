@@ -42,7 +42,7 @@
     	-o-transform: translatez(0);
     	transform: translatez(0);
 }
-.bx-viewport li { min-height: 1px; min-width: 1px; }
+.bx-viewport li { min-height: 400px; min-width: 700px; }
 
 .bx-wrapper .bx-pager,
 .bx-wrapper .bx-controls-auto {
@@ -200,6 +200,9 @@
 	font-size: 12px;
 	vertical-align: baseline;
 	margin-left: 5px;
+}
+@media screen and (max-width: 1000px) {
+	.bx-viewport li { min-height: 1px; min-width: 1px; }
 }
 @media screen and (max-width: 600px) {
 	.caption {
