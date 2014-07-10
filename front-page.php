@@ -87,7 +87,7 @@
 				</div>
 				<div class="metrics-right">
 					<img src="wp-content/themes/hrpo/_/img/data-graphic.png">
-					<p><a href="metrics">See HRPO data &raquo;</a></p>
+					<p><a href="/about/metrics/">See HRPO data &raquo;</a></p>
 				</div>
 			</div>
 			</div>
