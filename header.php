@@ -95,7 +95,6 @@
 if (isset($_GET['post_type']) && $_GET['post_type'] == 'event' && is_search()) {
 ?>
 <div id="main" class="clearfix">
-    <div id="page-background"></div>
     <div class="wrapper">
         <?php get_sidebar( 'left' ); ?>
 <?php

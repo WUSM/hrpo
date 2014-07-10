@@ -722,13 +722,19 @@ a#site-rss:hover {
     margin-left: 10px;
     padding-top: 22px;
 }
+#footer-logo {
+    float: left;
+}
 #wusm-footer-left img {
     width: 199px;
 }
 
 #copyright {
+    float: left;
+    padding-left: 40px;
+    line-height: 1.5;
     font-size: 12px;
-    margin-top: 10px;
+    margin-top: 19px;
     color: rgb(255,255,255);
     color: rgba(255,255,255,0.55);
 }
