@@ -107,6 +107,9 @@ li#menu-item-85 a {
 	width: 160px;
 	margin-top: 10px;
 }
+.metrics-right p {
+	padding-top: 5px;
+}
 .metrics-right a {
 	color: #217668;
 }
