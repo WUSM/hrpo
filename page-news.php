@@ -30,12 +30,21 @@
 			$args = array( 'posts_per_page' => 10 );
 
 			$myposts = get_posts( $args );
+			if ($myposts) :
 			foreach ( $myposts as $post ) : setup_postdata( $post ); ?>
 					<a href="<?php the_permalink(); ?>"><h2><?php the_title(); ?></h2></a>
-					<div><?php the_time( 'm/d/Y' ); ?></div>
+					<div class="post-date"><?php the_time( 'm/d/Y' ); ?></div>
+					<?php if (get_the_post_thumbnail() != '') {
+						echo '<div id="featured-image">';
+						the_post_thumbnail('thumbnail');
+						echo '</div>';
+					} ?>
 					<?php the_excerpt(); ?>
 			<?php endforeach; 
-			wp_reset_postdata();?>
+			wp_reset_postdata();
+			else : ?>
+			<p class="no-return">No articles to display at this time.</p>
+			<?php endif; ?>
 
 		</article>
 

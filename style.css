@@ -285,6 +285,42 @@ ul.research-toolkit-nav a:hover { color: #fff; }
 ul.research-toolkit-nav a:hover li { background: #686868; }
 
 
+/* ------ News ------ */
+
+.page-news h2 {
+	margin-bottom: 10px;
+}
+.post-date {
+	margin-bottom: 20px;
+}
+.page-news a.read-more {
+	text-transform: uppercase;
+}
+a.back-to-news {
+	margin-bottom: 30px;
+	display: inline-block;
+}
+a.back-to-news:hover {
+	color: #717171;
+}
+.single-news h1 {
+	margin-bottom: 10px;
+}
+#featured-image {
+	text-align: left;
+}
+.page-news #featured-image {
+	margin: 0 15px 10px 0;
+	float: left;
+}
+.single-news #featured-image {
+	margin-bottom: 20px;
+}
+.page-news .no-return {
+	padding-bottom: 73px;
+}
+
+
 @media screen and (max-width: 1000px) {
 	li#menu-item-51 {
 		position: relative;

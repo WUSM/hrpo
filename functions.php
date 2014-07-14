@@ -169,10 +169,14 @@ add_shortcode('caption', 'fixed_img_caption_shortcode');
 
 
 function custom_excerpt_length( $length ) {
-	return 20;
+	return 30;
 }
 add_filter( 'excerpt_length', 'custom_excerpt_length', 999 );
 
+function new_excerpt_more( $more ) {
+	return '... <a class="read-more" href="'. get_permalink( get_the_ID() ) . '">' . __('Read More') . '</a>';
+}
+add_filter( 'excerpt_more', 'new_excerpt_more' );
 
 // Add style selector drop down on the second row of the Visual editor
 function wusm_mce_buttons_2( $buttons ) {

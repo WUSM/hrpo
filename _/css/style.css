@@ -836,6 +836,10 @@ article.search-results {
     color: #217668;
 }
 
+.no-return {
+    font-style: italic;
+}
+
 
 
 /* Mobile navigation

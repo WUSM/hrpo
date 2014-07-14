@@ -26,7 +26,7 @@
                         </p>
                     <?php endwhile;
                 else : ?>
-                    <h2>No Results Found</h2>
+                    <p class="no-return">No results found.</p>
                 <?php endif; ?>
             </article>
 
