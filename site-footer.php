@@ -10,7 +10,7 @@
                 <a onclick="javascript:_gaq.push(['_trackEvent','site-footer','']);" href="http://digitalcommons.wustl.edu/hrpo/">HRPO Open Access Library</a>
             </nav>
             <div id="site-social">
-                <a onclick="javascript:_gaq.push(['_trackEvent','site-footer','RSS']);" id="site-rss" title="RSS" href=""></a>
+                <a onclick="javascript:_gaq.push(['_trackEvent','site-footer','RSS']);" id="site-rss" title="RSS" href="/feed/"></a>
             </div>
         </div>
         <div id="site-footer-bottom" class="clearfix">
@@ -23,14 +23,14 @@
             <div id="col2">
                 <strong>Quick Links</strong>
                 <ul>
-                    <li><a href="">Find Help Here</a></li>
-                    <li><a href="">Investigator Guide</a></li>
-                    <li><a href="">Emergency Patient Treatment Form</a></li>
-                    <li><a href="">Meeting Dates</a></li>
+                    <li><a href="/swat/">Find Help Here</a></li>
+                    <li><a href="/research-toolkit/investigator-guide/">Investigator Guide</a></li>
+                    <li><a href="/research-toolkit/emergency-patient-treatment/">Emergency Patient Treatment Form</a></li>
+                    <li><a href="/calendar/">Meeting Dates</a></li>
                 </ul>
             </div>
             <div id="col3">
-                <img src="/wp-content/themes/hrpo/_/img/accreditation.png">
+                <a href="http://aahrpp.org/"><img src="/wp-content/themes/hrpo/_/img/accreditation.png"></a>
                 <p>Committed to protecting research participants</p>
             </div>
         </div>

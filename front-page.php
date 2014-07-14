@@ -58,7 +58,7 @@
 			<div class="metrics clearfix">
 				<div class="metrics-left">
 					<h1>Metrics</h1>
-					<p>Our office uses data collected from carefully defined performance metrics to measure results and ensure continuous quality improve-ment of our program. These metrics are also intended to provide a better understanding of the IRB process.</p>
+					<p>Our office uses data collected from carefully defined performance metrics to measure results and ensure continuous quality improvement of our program. These metrics are also intended to provide a better understanding of the IRB process.</p>
 				</div>
 				<div class="metrics-right">
 					<img src="wp-content/themes/hrpo/_/img/data-graphic.png">
