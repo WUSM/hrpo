@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 
 <!--[if lt IE 7 ]> <html class="ie ie6 ie-lt10 ie-lt9 ie-lt8 ie-lt7 no-js" lang="en"> <![endif]-->
 <!--[if IE 7 ]>	 <html class="ie ie7 ie-lt10 ie-lt9 ie-lt8 no-js" lang="en"> <![endif]-->
@@ -10,7 +10,6 @@
 <head id="sitename-wustl-edu" data-template-set="html5-reset">
     <meta charset="utf-8">
 
-    <!-- Always force latest IE rendering engine (even in intranet) & Chrome Frame -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
     <title><?php is_front_page() ? bloginfo('name') : wp_title(''); ?> | <?php echo is_front_page() ? 'Washington University School of Medicine in St. Louis' : bloginfo('name'); ?></title>
@@ -22,6 +21,8 @@
 
     <link rel="shortcut icon" href="<?php echo get_template_directory_uri(); ?>/_/img/favicon.ico">
     <link rel="apple-touch-icon" href="<?php echo get_template_directory_uri(); ?>/_/img/apple-touch-icon.png">
+
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,700italic,400,300,700' rel='stylesheet' type='text/css'>
 
     <!-- concatenate and minify for production -->
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/_/css/reset.css">
@@ -36,14 +37,7 @@
     </style>
     <![endif]-->
 
-    <?php
-    /* Always have wp_head() just before the closing </head>
-     * tag of your theme, or you will break many plugins, which
-     * generally use this hook to add elements to <head> such
-     * as styles, scripts, and meta tags.
-     */
-    wp_head();
-    ?>
+    <?php wp_head(); ?>
 </head>
 
 <body <?php body_class(); ?>>

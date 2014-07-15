@@ -321,6 +321,49 @@ a.back-to-news:hover {
 	padding-bottom: 73px;
 }
 
+/* ------ Forms ------ */
+
+.ept-form {
+	padding: 25px 0 0;
+}
+.ept-form p:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+.ept-form label {
+	display: block;
+	width: 30%;
+	cursor: default;
+	float: left;
+	padding-right: 10px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+span.wpcf7-form-control-wrap {
+	display: block;
+	float: left;
+	width: 60%;
+}
+.ept-form input {
+	font-family: 'Open Sans';
+	width: 100%;
+}
+.ept-form input[type='submit'] {
+	width: auto;
+	margin-left: 30%;
+	background: #217668;
+	border: none;
+	padding: 5px 15px;
+	color: #fff;
+	border-radius: 3px;
+	transition: background 0.1s ease;
+}
+.ept-form input[type='submit']:hover {
+	background: #099;
+}
+
 
 @media screen and (max-width: 1000px) {
 	li#menu-item-51 {
@@ -424,6 +467,24 @@ a.back-to-news:hover {
 	ul.research-toolkit-nav li.rt-eme { padding: 10px 15px; }
 	ul.research-toolkit-nav li.rt-com { padding: 10px 15px; }
 	ul.research-toolkit-nav a:last-child li { padding: 10px 15px; height: auto; }
+	.ept-form p { margin-bottom: 5px; }
+	.ept-form label {
+		float: none;
+		width: 100%;
+		padding-right: 0;
+	}
+	span.wpcf7-form-control-wrap {
+		float: none;
+		width: 100%;
+	}
+	.ept-form input {
+		width: 100%;
+		max-width: 300px;
+	}
+	.ept-form input[type='submit'] {
+		margin-left: 0;
+		margin-top: 10px;
+	}
 }
 @media screen and (max-width: 400px) {
 	.mission-left {
