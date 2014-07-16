@@ -194,6 +194,8 @@
 	display: block;
 	padding: 10px;
 	margin-right: 150px;
+	-webkit-text-size-adjust: 100%;
+	text-size-adjust: 100%;
 }
 .caption span a {
 	color: #cccc66;

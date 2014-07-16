@@ -349,6 +349,9 @@ span.wpcf7-form-control-wrap {
 .ept-form input {
 	font-family: 'Open Sans';
 	width: 100%;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
 }
 .ept-form input[type='submit'] {
 	width: auto;
@@ -359,6 +362,7 @@ span.wpcf7-form-control-wrap {
 	color: #fff;
 	border-radius: 3px;
 	transition: background 0.1s ease;
+	-webkit-appearance: none;
 }
 .ept-form input[type='submit']:hover {
 	background: #099;

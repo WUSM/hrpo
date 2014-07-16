@@ -64,7 +64,6 @@
                 <input type="image" class="submit" name="submit" id="mobile-search-btn" src="<?php echo get_template_directory_uri(); ?>/_/img/mobile-search.png">
             </form>
         </li>
-        <li class="page_item<?php echo is_front_page() ? ' current_page_item' : '' ?>"><a href="<?php echo home_url(); ?>">Home</a></li>
 
         <?php
         wp_list_pages( array(
