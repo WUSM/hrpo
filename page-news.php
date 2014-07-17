@@ -26,12 +26,10 @@
 					the_content();
 				endwhile;
 			endif;
-
-			$args = array( 'posts_per_page' => 10 );
-
-			$myposts = get_posts( $args );
-			if ($myposts) :
-			foreach ( $myposts as $post ) : setup_postdata( $post ); ?>
+			$paged = ( get_query_var( 'paged' ) ) ? absint( get_query_var( 'paged' ) ) : 1;
+			$args = array( 'post_type' => 'post', 'paged' => $paged, 'posts_per_page' => 10 );
+			query_posts( $args );
+			if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 					<a href="<?php the_permalink(); ?>"><h2><?php the_title(); ?></h2></a>
 					<div class="post-date"><?php the_time( 'm/d/Y' ); ?></div>
 					<?php if (get_the_post_thumbnail() != '') {
@@ -40,9 +38,12 @@
 						echo '</div>';
 					} ?>
 					<?php the_excerpt(); ?>
-			<?php endforeach; 
-			wp_reset_postdata();
-			else : ?>
+			<?php endwhile; ?>
+			<div class="post-navigation">
+			<div class="alignleft"><?php previous_posts_link('&laquo; Previous Entries') ?></div>
+			<div class="alignright"><?php next_posts_link('Next Entries &raquo;') ?></div>
+			</div>
+			<?php else : ?>
 			<p class="no-return">No articles to display at this time.</p>
 			<?php endif; ?>
 

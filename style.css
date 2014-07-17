@@ -320,6 +320,9 @@ a.back-to-news:hover {
 .page-news .no-return {
 	padding-bottom: 73px;
 }
+.post-navigation {
+	margin-top: 50px;
+}
 
 /* ------ Forms ------ */
 
