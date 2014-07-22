@@ -1,8 +1,7 @@
 body#tinymce.wp-editor {
-	font-family: Arial, sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	font-size: 14px;
 	color: #333;
-	background-color: #f4f4f4;
 	max-width: 450px;
 	padding: 45px 35px 70px 35px;
 }
