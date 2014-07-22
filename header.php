@@ -58,7 +58,7 @@
             </nav>
 
             <div id="header-text">
-                <a onclick="javascript:_gaq.push(['_trackEvent','header-text','http://medicine.wustl.edu/']);" href="http://medicine.wustl.edu/">Washington University School of Medicine</a>
+                <a onclick="javascript:_gaq.push(['_trackEvent','header-text','http://medicine.wustl.edu/']);" href="http://wustl.edu/">Washington University in St. Louis</a>
             </div>
 
         </div>
