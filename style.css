@@ -212,6 +212,9 @@ body.page-id-51 .title-bg-inner {
 #left-col {
 	padding-top: 108px;
 }
+#page-title-gs {
+    margin-bottom: 15px;
+}
 
 
 /* ------ Metrics ------ */
@@ -372,6 +375,127 @@ span.wpcf7-form-control-wrap {
 }
 
 
+/* ------ Getting Started Step By Step ------ */
+
+.getting-started {
+	float: left;
+	width: 100%;
+	max-width: 770px;
+	padding-left: 30px;
+	padding-bottom: 30px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	position: relative;
+}
+.getting-started a {
+	color: #217668;
+}
+.getting-started a:hover {
+	color: #009999;
+}
+.gs-number {
+	font-size: 48px;
+	color: #fff;
+	line-height: 1;
+	display: block;
+	text-align: center;
+	padding-top: 2px;
+}
+.gs-name {
+	font-size: 18px;
+	display: block;
+	text-align: center;
+	padding-bottom: 4px;
+}
+.gs-links li {
+	padding-bottom: 10px;
+}
+.gs-left {
+	float: left;
+	width: 50%;
+}
+.gs-plan {
+	width: 50%;
+	float: left;
+	padding: 8px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.gs-plan-box{
+	border: 4px solid #989899;
+	background: #83bab1;
+	margin-bottom: 25px;
+}
+.gs-funding {
+	width: 50%;
+	float: right;
+	padding: 8px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.gs-funding-box {
+	border: 4px solid #989899;
+	margin-bottom: 25px;
+	background: #c0cc99;
+}
+.gs-right {
+	float: left;
+	width: 50%;
+}
+.gs-assurances {
+	width: 50%;
+	float: left;
+	padding: 8px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.gs-assurances-box {
+	border: 4px solid #989899;
+	background: #99ccb8;
+	margin-bottom: 25px;
+}
+.gs-approvals {
+	width: 50%;
+	float: right;
+	padding: 8px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.gs-approvals-box {
+	border: 4px solid #989899;
+	margin-bottom: 25px;
+	background: #b3d577;
+}
+.together {
+	display: inline-block;
+}
+.gs-arrow {
+	position: absolute;
+	background: #fff;
+	border-radius: 50%;
+	padding: 5px;
+	border: 4px solid #989898;
+	top: 29px;
+}
+.gs-arrow img {
+	display: block;
+}
+.arrow-one {
+	left: 25%;
+}
+.arrow-two {
+	left: 49%;
+}
+.arrow-three {
+	left: 73%;
+}
+
+
 @media screen and (max-width: 1000px) {
 	li#menu-item-51 {
 		position: relative;
@@ -411,6 +535,19 @@ span.wpcf7-form-control-wrap {
 	ul.research-toolkit-nav li.rt-inv { padding: 59px 10px 13px; }
 	ul.research-toolkit-nav li.rt-eme { padding: 45px 10px 27px; }
 	ul.research-toolkit-nav li.rt-com { padding: 45px 10px 27px; }
+	
+	.getting-started {
+		padding-left: 0;
+	}
+	.arrow-one {
+		left: 21.5%;
+	}
+	.arrow-two {
+		left: 46.6%;
+	}
+	.arrow-three {
+		left: 71.6%;
+	}
 }
 @media screen and (max-width: 700px) {
 	.tip-metrics {
@@ -492,6 +629,27 @@ span.wpcf7-form-control-wrap {
 		margin-left: 0;
 		margin-top: 10px;
 	}
+	.gs-left, .gs-right {
+		float: none;
+		width: 100%;
+		position: relative;
+	}
+	.arrow-one {
+		left: 50%;
+		margin-left: -22px;
+	}
+	.arrow-two {
+		display: none;
+	}
+	.arrow-three {
+		left: 50%;
+		margin-left: -22px;
+	}
+	.getting-started {
+		width: 95%;
+		margin: 0 auto;
+		float: none;
+	}
 }
 @media screen and (max-width: 400px) {
 	.mission-left {
@@ -507,9 +665,3 @@ span.wpcf7-form-control-wrap {
 		display: block;
 	}
 }
-
-
-
-
-
-

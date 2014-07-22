@@ -321,6 +321,10 @@ article h1 {
     font-size: 24px;
 }
 
+#page-title {
+    margin-bottom: 40px;
+}
+
 article h2 {
     font-size: 21px;
     margin-top: 45px;
@@ -441,12 +445,8 @@ article .disclaimer p {
     line-height: 17px;
 }
 
-article tr:nth-child(odd) {
-    background-color: #e4e3e3;
-}
-
-article tr:nth-child(even) {
-    background-color: #fff;
+article table {
+    margin: 20px 0;
 }
 
 article th {
@@ -456,17 +456,16 @@ article th {
 
 article th, article td {
     padding: 10px;
-    border-left: 1px solid #f4f4f4;
+    border-left: 1px solid #eae8e8;
+    border-bottom: 1px solid #eae8e8;
+    border: 1px solid #eae8e8;
 }
 
 article thead td {
     font-size: 14px;
-    font-weight: bold;
-    background-color: #fff;
-}
-
-article th:first-child, article td:first-child {
-    border: none;
+    font-weight: normal;
+    background-color: #eae8e8;
+    border: 1px solid #e4e3e3;
 }
 
 article td {

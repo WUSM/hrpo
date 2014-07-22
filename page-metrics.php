@@ -22,7 +22,7 @@
 
 		<article<?php echo $class; ?>>
 			<?php
-					the_title('<h1>', '</h1>');
+					the_title('<h1 id="page-title">', '</h1>');
 					the_content();
 				endwhile;
 			endif;

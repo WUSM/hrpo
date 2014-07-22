@@ -9,11 +9,11 @@ body#tinymce.wp-editor {
 
 body#tinymce.wp-editor a {
 	text-decoration: none;
-	color: #980006;
+	color: #217668;
 }
 
 body#tinymce.wp-editor a:hover {
-	color: #555;
+	color: #009999;
 }
 
 body#tinymce.wp-editor h1 {
