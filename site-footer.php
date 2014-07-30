@@ -30,7 +30,7 @@
                 </ul>
             </div>
             <div id="col3">
-                <a href="http://aahrpp.org/"><img src="/wp-content/themes/hrpo/_/img/accreditation.png"></a>
+                <a href="http://aahrpp.org/"><img src="<?php bloginfo('stylesheet_directory'); ?>/_/img/accreditation.png"></a>
                 <p>Committed to protecting research participants</p>
             </div>
         </div>
