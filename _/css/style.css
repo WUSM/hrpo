@@ -446,7 +446,11 @@ article .disclaimer p {
 }
 
 article table {
-    margin: 20px 0;
+    margin: 0 0 20px;
+}
+
+article .eo-fullcalendar table {
+    margin: 0;
 }
 
 article th {
