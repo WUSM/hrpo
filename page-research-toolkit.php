@@ -38,7 +38,7 @@
 			<a href="/research-toolkit/fees/"><li class="rt-fee">Fees</li></a>
 			<a href="/research-toolkit/emergency-patient-treatment/"><li class="rt-eme">Emergency Patient Treatment</li></a>
 			<a href="/research-toolkit/cenr"><li class="rt-com">Community-Engaged Research (CEnR)</li></a>
-			<a href="/research-toolkit/sponsor-letter-fwa/"><li class="rt-spo">Sponsor Letter</li></a>
+			<a href="/research-toolkit/sponsor-letter-fwa/"><li class="rt-spo">WU FWA &amp; IRB Registration</li></a>
 			<a href="/research-toolkit/additional-resources/"><li class="rt-add">Additional Resources</li></a>
 		</ul>
 

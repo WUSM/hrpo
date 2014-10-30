@@ -17,8 +17,8 @@
             <div id="col1">
                 <strong>Human Research Protection Office</strong><br>
                 <strong>Mailing Address:</strong> 660 S. Euclid Avenue, CB 8089 | St. Louis, MO 63110<br>
-                <strong>Office Location:</strong> <a href="https://goo.gl/maps/VmBVP">22 N. Euclid Avenue, Suite 233 | St. Louis, MO 63110</a><br>
-                <strong>Phone:</strong> 314-633-7400<br>
+                <strong>Office Location:</strong> <a href="https://goo.gl/maps/8jeOV">22 N. Euclid Avenue, Suite 215 | St. Louis, MO 63110</a><br>
+                <strong>Phone:</strong> (314) 747-6800<br>
             </div>
             <div id="col2">
                 <strong>Quick Links</strong>

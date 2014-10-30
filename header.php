@@ -22,7 +22,7 @@
     <link rel="shortcut icon" href="<?php echo get_template_directory_uri(); ?>/_/img/favicon.ico">
     <link rel="apple-touch-icon" href="<?php echo get_template_directory_uri(); ?>/_/img/apple-touch-icon.png">
 
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,700italic,400,300,700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,300,700,600' rel='stylesheet' type='text/css'>
 
     <!-- concatenate and minify for production -->
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/_/css/reset.css">
@@ -49,13 +49,6 @@
         <div class="wrapper clearfix">
 
             <div id="header-logo"><a onclick="javascript:_gaq.push(['_trackEvent','header-logo','http://wustl.edu/']);" href="http://wustl.edu/"><img src="<?php echo get_template_directory_uri(); ?>/_/img/wustl-logo.png" alt="Washington University School of Medicine in St. Louis"></a></div>
-
-            <nav id="utility-bar">
-                <ul id="utility-nav">
-                    <li><a onclick="javascript:_gaq.push(['_trackEvent','utility-nav','http://wustl.edu/']);" href="http://wustl.edu/">WUSTL</a></li>
-                    <li class="last-child"><a onclick="javascript:_gaq.push(['_trackEvent','utility-nav','http://medicine.wustl.edu/directory']);" href="http://medicine.wustl.edu/directory">Directories</a></li>
-                </ul>
-            </nav>
 
             <div id="header-text">
                 <a onclick="javascript:_gaq.push(['_trackEvent','header-text','http://medicine.wustl.edu/']);" href="http://wustl.edu/">Washington University in St. Louis</a>

@@ -28,7 +28,7 @@ if ( function_exists( 'get_field' ) && get_field( 'sidebars' ) ): ?>
 					echo $attachment_id ? wp_get_attachment_image( $attachment_id, 'right-sidebar' ) : '';
 				?>
 				<div class="sidebar-body">
-					<h2><?php the_sub_field( 'title' ); ?></h2>
+					<?php if(get_field('title')): ?><h2><?php the_sub_field( 'title' ); ?></h2><?php endif; ?>
 					<?php echo get_sub_field( 'text' ) ? get_sub_field( 'text' ) : ''; ?>
 				</div>
 				<?php

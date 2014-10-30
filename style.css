@@ -4,7 +4,7 @@ Theme URI:   http://medicine.wustl.edu
 Description: Theme for Human Research Protection Office
 Author: 	 Medical Public Affairs
 Author URI:  http://medicine.wustl.edu
-Version:	 2014.06.11.0
+Version:	 2014.10.29.0
 
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -19,6 +19,14 @@ li#menu-item-85 {
 }
 li#menu-item-85 a {
 	text-transform: none;
+}
+#featured-image {
+	max-width: 1000px;
+	margin: 0 auto;
+}
+article.notch {
+	background: #fff;
+	border-top-color: #217668;
 }
 .intro {
 	max-width: 960px;
@@ -221,20 +229,29 @@ body.page-id-51 .title-bg-inner {
 .call-to-action {
     font-size: 16px;
     text-align: center;
-    display: inline-block;
+    display: table;
     margin-bottom: 10px;
+    background: #217668;
+    border-radius: 5px;
+    color: #fff;
+	transition: background 0.1s ease;
+}
+.call-to-action.blue {
+	background: #2d4782;
 }
 .call-to-action a {
 	color: #fff;
-	background: #217668;
 	padding: 15px 20px;
-	display: inline-block;
-	border-radius: 5px;
-	transition: background 0.1s ease;
+	display: block;
 }
 .call-to-action a:hover {
 	color: #fff;
+}
+.call-to-action:hover {
 	background: #009999;
+}
+.call-to-action.blue:hover {
+	background: #4d70bf;
 }
 .call-to-action p {
     line-height: 17px;
@@ -304,7 +321,7 @@ li.rt-inv {	background: #a7badb; }
 li.rt-fee {	background: #fba52a; }
 ul.research-toolkit-nav li.rt-eme {	background: #ccb162; padding: 88px 10px 12px; }
 ul.research-toolkit-nav li.rt-com {	background: #a6d15b; padding: 88px 10px 12px; }
-li.rt-spo {	background: #b7ae9d; }
+ul.research-toolkit-nav li.rt-spo {	background: #b7ae9d; padding: 88px 10px 12px; }
 li.rt-add {	background: #cccc9a; }
 
 ul.research-toolkit-nav a:last-child { width: 100%; }
@@ -316,8 +333,17 @@ ul.research-toolkit-nav a:hover li { background: #686868; }
 
 /* ------ News ------ */
 
+.page-news article {
+	max-width: 700px;
+}
+@media screen and (max-width: 700px) {
+	.page-news article {
+		width: 80%;
+	}
+}
 .page-news h2 {
-	margin-bottom: 10px;
+	margin-bottom: 15px;
+	line-height: 1;
 }
 .post-date {
 	margin-bottom: 20px;
@@ -335,12 +361,23 @@ a.back-to-news:hover {
 .single-news h1 {
 	margin-bottom: 10px;
 }
-#featured-image {
-	text-align: left;
-}
 .page-news #featured-image {
-	margin: 0 15px 10px 0;
+	margin: 0 25px 15px 0;
 	float: left;
+}
+.post-preview {
+	float: left;
+	max-width: 575px;
+	margin-bottom: 25px;
+}
+.post-preview-thumbnail {
+	max-width: 400px;
+	float: left;
+	margin-bottom: 25px;
+}
+.post-preview h2,
+.post-preview-thumbnail h2 {
+	margin-top: 0;
 }
 .single-news #featured-image {
 	margin-bottom: 20px;
@@ -521,6 +558,71 @@ span.wpcf7-form-control-wrap {
 }
 
 
+/* ------ On Demand ------ */
+
+.on-demand {
+	float: left;
+	max-width: 450px;
+	padding: 0 35px 20px 35px;
+	width: 100%;
+}
+.on-demand li {
+	background: #dedede;
+	margin-bottom: 5px;
+	width: 100%;
+}
+.topic-title {
+	padding: 10px 12px;
+}
+
+
+/* ------ Contact ------ */
+
+.contact {
+	width: 735px;
+	margin-top: 45px;
+}
+.contact .accordion-body-text {
+	padding-bottom: 10px;
+
+}
+.contact-header {
+	font-weight: bold;
+}
+.contact .name,
+.contact .title,
+.contact .phone,
+.contact .email {
+	float: left;
+	margin: 5px 0 10px;
+}
+.contact .name {
+	width: 25%;
+	padding-right: 15px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.contact .title {
+	width: 28%;
+	padding-right: 15px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.contact .phone {
+	width: 12%;
+	padding-right: 15px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.contact .email {
+	width: 35%;
+}
+
+
+
 @media screen and (max-width: 1000px) {
 	li#menu-item-51 {
 		position: relative;
@@ -560,6 +662,7 @@ span.wpcf7-form-control-wrap {
 	ul.research-toolkit-nav li.rt-inv { padding: 59px 10px 13px; }
 	ul.research-toolkit-nav li.rt-eme { padding: 45px 10px 27px; }
 	ul.research-toolkit-nav li.rt-com { padding: 45px 10px 27px; }
+	ul.research-toolkit-nav li.rt-spo { padding: 59px 10px 13px; }
 	
 	.getting-started {
 		padding-left: 0;
@@ -572,6 +675,34 @@ span.wpcf7-form-control-wrap {
 	}
 	.arrow-three {
 		left: 71.6%;
+	}
+	.contact-page article {
+		max-width: 640px;
+		width: 100%;
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;
+	}
+	.contact {
+		width: 100%;
+		max-width: auto;
+	}
+	.contact .name,
+	.contact .title {
+		float: left;
+		width: 100%;
+		margin-bottom: 0;
+		padding-right: 0;
+	}
+	.contact .phone {
+		float: left;
+		width: 40%;
+		margin-bottom: 15px;
+	}
+	.contact .email {
+		float: right;
+		width: 60%;
+		margin-bottom: 15px;
 	}
 }
 @media screen and (max-width: 700px) {
@@ -635,6 +766,7 @@ span.wpcf7-form-control-wrap {
 	ul.research-toolkit-nav li.rt-inv { padding: 10px 15px; }
 	ul.research-toolkit-nav li.rt-eme { padding: 10px 15px; }
 	ul.research-toolkit-nav li.rt-com { padding: 10px 15px; }
+	ul.research-toolkit-nav li.rt-spo { padding: 10px 15px; }
 	ul.research-toolkit-nav a:last-child li { padding: 10px 15px; height: auto; }
 	.ept-form p { margin-bottom: 5px; }
 	.ept-form label {
@@ -674,6 +806,26 @@ span.wpcf7-form-control-wrap {
 		width: 95%;
 		margin: 0 auto;
 		float: none;
+	}
+}
+@media screen and (max-width: 518px) {
+	.contact .accordion-header {
+		width: 100%;
+		padding-left: 0;
+		padding-right: 0;
+	}
+	.contact .accordion-body-text {
+		width: 100%;
+		margin: 0;
+		padding: 0;
+	}
+	.contact .phone {
+		margin-bottom: 0;
+		width: 100%;
+	}
+	.contact .email {
+		float: left;
+		width: 100%;
 	}
 }
 @media screen and (max-width: 400px) {

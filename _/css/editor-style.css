@@ -130,11 +130,17 @@ body#tinymce.wp-editor .call-to-action {
     font-size: 16px;
     background: #217668;
     text-align: center;
-    display: inline-block;
+    display: table;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    color: #fff;
+    padding: 15px 20px;
+}
+body#tinymce.wp-editor .call-to-action.blue {
+	background: #2d4782;
 }
 body#tinymce.wp-editor .call-to-action a {
 	color: #fff;
-	padding: 15px 20px;
 	display: inline-block;
 }
 

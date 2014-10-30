@@ -30,14 +30,20 @@
 			$args = array( 'post_type' => 'post', 'paged' => $paged, 'posts_per_page' => 10 );
 			query_posts( $args );
 			if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
-					<a href="<?php the_permalink(); ?>"><h2><?php the_title(); ?></h2></a>
-					<div class="post-date"><?php the_time( 'm/d/Y' ); ?></div>
+				<div class="clearfix">
 					<?php if (get_the_post_thumbnail() != '') {
 						echo '<div id="featured-image">';
 						the_post_thumbnail('thumbnail');
 						echo '</div>';
+						echo '<div class="post-preview-thumbnail">';
+					} else {
+						echo '<div class="post-preview">';
 					} ?>
-					<?php the_excerpt(); ?>
+						<a href="<?php the_permalink(); ?>"><h2><?php the_title(); ?></h2></a>
+						<div class="post-date"><?php the_time( 'm/d/Y' ); ?></div>
+						<?php the_excerpt(); ?>
+					</div>
+				</div>
 			<?php endwhile; ?>
 			<div class="post-navigation">
 			<div class="alignleft"><?php previous_posts_link('&laquo; Previous Entries') ?></div>
@@ -48,8 +54,6 @@
 			<?php endif; ?>
 
 		</article>
-
-		<?php get_sidebar( 'right' ); ?>
 
 	</div>
 

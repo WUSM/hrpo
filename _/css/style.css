@@ -68,36 +68,6 @@ a {
     padding-bottom: 15px;
 }
 
-#utility-bar {
-    float: right;
-}
-
-#utility-nav {
-    list-style-type: none;
-    margin-top: 20px;
-}
-
-#utility-nav li {
-    float: left;
-    padding: 7px 15px;
-    border-right: 1px solid #e8e8e8;
-}
-
-#utility-nav li.last-child {
-    border: none;
-    padding-right: 0;
-}
-
-#utility-nav li a {
-    color: #999;
-    font-size: 11px;
-    text-transform: uppercase;
-}
-
-#utility-nav li a:hover {
-    color: #217668;
-}
-
 #header-text {
     display: none;
 }
@@ -954,16 +924,6 @@ article.search-results {
 
     #header-text a {
         color: #217668;
-    }
-
-    #utility-bar {
-        position: absolute;
-        right: -252px;
-        background-color: #fff;
-    }
-
-    #utility-nav {
-        margin-top: 10px;
     }
 
     #mobile-menu-icon {

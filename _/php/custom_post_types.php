@@ -113,6 +113,43 @@ function custom_post_types_init() {
 
   register_post_type( 'charts', $args );
 
+  
+  // Staff Directory
+
+  $labels = array(
+    'name' => 'Staff Directory',
+    'singular_name' => 'Staff Member',
+    'add_new' => 'Add New',
+    'add_new_item' => 'Add New Staff Member',
+    'edit_item' => 'Edit Staff Member',
+    'new_item' => 'New Staff Member',
+    'all_items' => 'All Staff Members',
+    'view_item' => 'View Staff Member',
+    'search_items' => 'Search staff members',
+    'not_found' =>  'No staff members found',
+    'not_found_in_trash' => 'No staff members found in Trash',
+    'parent_item_colon' => '',
+    'menu_name' => 'Staff'
+  );
+
+  $args = array(
+    'labels' => $labels,
+    'public' => false,
+    'exclude_from_search' => true,
+    'show_ui' => true,
+    'show_in_menu' => true,
+    'query_var' => true,
+    'rewrite' => array( 'slug' => 'staff' ),
+    'capability_type' => 'post',
+    'has_archive' => true,
+    'hierarchical' => false,
+    'menu_position' => 7,
+    'menu_icon' => 'dashicons-groups',
+    'supports' => array(  )
+  );
+
+  register_post_type( 'staff', $args );
+
 } 
 add_action( 'init', 'custom_post_types_init' );
 
@@ -125,3 +162,12 @@ function charts_taxonomy() {
 }
 
 add_action( 'init', 'charts_taxonomy', 0 );
+
+function staff_taxonomy() {
+  $args = array(
+        'hierarchical' => true
+    );
+  register_taxonomy( 'staff_category', 'staff', $args );
+}
+
+add_action( 'init', 'staff_taxonomy', 0 );

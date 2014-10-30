@@ -169,7 +169,7 @@ add_shortcode('caption', 'fixed_img_caption_shortcode');
 
 
 function custom_excerpt_length( $length ) {
-	return 30;
+	return 20;
 }
 add_filter( 'excerpt_length', 'custom_excerpt_length', 999 );
 
@@ -202,9 +202,15 @@ function customize_mce( $settings ) {
 					'wrapper'	=> 'true'
 				),
 				array(
-					'title'		=> 'Call to Action',
+					'title'		=> 'Call to Action - Green',
 					'block'		=> 'div',
 					'classes'	=> 'call-to-action',
+					'wrapper'	=> 'true'
+				),
+				array(
+					'title'		=> 'Call to Action - Blue',
+					'block'		=> 'div',
+					'classes'	=> 'call-to-action blue',
 					'wrapper'	=> 'true'
 				)
 			)
